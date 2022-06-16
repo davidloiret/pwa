@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(53, 54, 58);
+  font-family: courier, arial, helvetica;
+  color: #fff;
+  font-size: 1.6em;
+}
+#main-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+#main-form input {
+  height: 22px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 80px);
+  flex-direction: column;
+}
+input {
+  outline: none;
+  border: 2px solid #C41F38;
+  background-color: transparent;
+  padding: 8px 17px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.button {
+  background-color: #C41F38;
+  padding: 7px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
